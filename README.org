@@ -18,6 +18,6 @@ Here,
 - The user provides only email and password into the form.
 - These details are verified with the DB values and once successful, the user is presented with the Dashboard page
 - Home page is displayed on signout.
-** About test
-The app is tested using the unittest framework that comes built-in any python installation.
+** About the test
+The app is tested using the [[https://docs.python.org/3/library/unittest.html][unittest]] framework that comes built-in any python installation.
 
