@@ -25,6 +25,7 @@ The app is tested using the [[https://docs.python.org/3/library/unittest.html][u
 - The [[https://github.com/aniketgm/devops-flask-mongodb/blob/main/Dockerfile][Dockerfile]] contains the code to create a docker image containing Jenkins and Python.
 - With this Dockerfile, we first build the file, which will create a docker image as follows:
 
+  ~docker build -t jenkins-python:test .~
   #+begin_src
     docker build -t jenkins-python:test .
   #+end_src
