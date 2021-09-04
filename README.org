@@ -26,5 +26,12 @@ The app is tested using the [[https://docs.python.org/3/library/unittest.html][u
 - With this Dockerfile, we first build the file, which will create a docker image as follows:
 
   #+begin_src
-      docker build -t jenkins-python:test .
-  #+end_src 
+    docker build -t jenkins-python:test .
+  #+end_src
+  
+- After the image is created, run the following to create a container and start working with Jenkins and Python.
+  #+begin_src
+    docker run -p 8080:8080 jenkins-python:test --name <CONTAINER_NAME>
+  #+end_src
+
+- This will create a container with some random name, unless a <CONTAINER_NAME> is specified.
