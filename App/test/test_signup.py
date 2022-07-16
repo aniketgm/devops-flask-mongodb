@@ -4,7 +4,6 @@ import unittest
 from src import create_app, get_mdb, get_mdb_client
 from config import Config
 from passlib.hash import pbkdf2_sha256
-import uuid
 
 class TestConfig(Config):
     TESTING = True

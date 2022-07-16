@@ -1,8 +1,6 @@
-from flask import jsonify, request, session, redirect
-from flask import current_app as capp
+from flask import jsonify, session, redirect
 from passlib.hash import pbkdf2_sha256
 from src import get_mdb
-import uuid
 
 class User:
 
