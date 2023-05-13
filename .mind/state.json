@@ -1,0 +1,64 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "is_expanded": false,
+                    "data": ".mind/data/20230112114511-Create-docker-compose.md",
+                    "contents": [
+                        {
+                            "text": "Create docker-compose"
+                        }
+                    ]
+                }
+            ],
+            "icon": "\ufac6",
+            "is_expanded": true,
+            "contents": [
+                {
+                    "text": "Todos"
+                }
+            ],
+            "data": ".mind/data/20230112114443-Todos.md"
+        },
+        {
+            "children": [
+                {
+                    "contents": [
+                        {
+                            "text": "ConvertToReact"
+                        }
+                    ],
+                    "data": ".mind/data/20230102220224-ConvertToReact.md",
+                    "is_expanded": false
+                },
+                {
+                    "is_expanded": true,
+                    "contents": [
+                        {
+                            "text": "AppDockerization"
+                        }
+                    ],
+                    "data": ".mind/data/20230102215602-AppDockerization.md"
+                }
+            ],
+            "contents": [
+                {
+                    "text": "Notes"
+                }
+            ],
+            "is_expanded": true,
+            "icon": "\uf044 "
+        }
+    ],
+    "is_expanded": true,
+    "icon": "\uf02d ",
+    "uid": "20230102214952",
+    "data": ".mind/data/20230102215155-devops-flask-mongodb.md",
+    "type": 1,
+    "contents": [
+        {
+            "text": "devops-flask-mongodb"
+        }
+    ]
+}

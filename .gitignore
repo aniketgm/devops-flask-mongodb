@@ -1,6 +1,0 @@
-# python output files and folder
-*.pyc
-__pycache__/
-
-# python virtual env files and folder
-App/*env/

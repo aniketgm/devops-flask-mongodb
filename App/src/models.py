@@ -8,14 +8,12 @@ class User:
     def __init__(self):
         self._mdb = get_mdb()
 
-
     # Start session for a successful login
     def start_session(self, user):
         del user['password']
         session['logged_in'] = True
         session['user'] = user
         return jsonify(user), 200
-
 
     # Sign up into session and add new user details in database
     def signup(self, luser): 
@@ -33,12 +31,10 @@ class User:
             
         return jsonify({ "error": "Signup failed!" }), 400
 
-
     # Sign out from session
     def signout(self):
         session.clear()
         return redirect('/')
-
 
     # Log into session
     def login(self, luser):
@@ -51,3 +47,4 @@ class User:
                 return self.start_session(user)
 
         return jsonify({ "error": "Login failed!"}), 401
+
